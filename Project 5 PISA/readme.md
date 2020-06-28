@@ -3,11 +3,9 @@
 
 ## Dataset
 
-Programme for International Student Assessment (PISA) is a survey of students' skills and knowledge as they approach the end of compulsory education. It is not a conventional school test. Rather than examining how well students have learned the school curriculum, it looks at how well prepared they are for life beyond school.
+Around 510,000 students in 65 economies took part in the PISA 2012 assessment of reading, mathematics and science representing about 28 million 15-year-olds globally. Of those countries, 44 took part in an assessment of creative problem solving and 18 in an assessment of financial literacy. The survey was sponsored by Organisation for Economic Co-operation and Development (OECD).
 
-Around 510,000 students in 65 economies took part in the PISA 2012 assessment of reading, mathematics and science representing about 28 million 15-year-olds globally. Of those economies, 44 took part in an assessment of creative problem solving and 18 in an assessment of financial literacy. The survey was sponsored by Organisation for Economic Co-operation and Development (OECD).
-
-I analyze the data against Freedom House's [_Freedom in the World_ report](https://en.wikipedia.org/wiki/Freedom_in_the_World#cite_note-FITW-2012-11). I obtained data for all years from [here](https://freedomhouse.org/content/freedom-world-data-and-resources) and then extracted the data for 2012, the same year as the PISA study.
+I also analyze the data against Freedom House's [_Freedom in the World_ report](https://en.wikipedia.org/wiki/Freedom_in_the_World#cite_note-FITW-2012-11). I obtained data for all years from [here](https://freedomhouse.org/content/freedom-world-data-and-resources) and then extracted the data for 2012, the same year as the PISA study.
 
 **Important Note:** The full dataset (pisa2012.csv) is not included in this repo because it is more than 2.7GB.
 
@@ -16,7 +14,7 @@ I analyze the data against Freedom House's [_Freedom in the World_ report](https
 
 I decided to explore three main questions:
 
-* **Does the age when a child begins learning the language the test was given in affect their performance?** The students were all 15 years old at the time of the study. The tests were given in a number of languages that reflected the primary language in each region. For many of the students, the test language was not their native language. I was curious if less experience with the test language had any affect on performance, particularly in the reading section. I determined that the less experience a student had with the test language, the lower they scored in the reading section.
+* **Does the age when a child begins learning the language using in the test impact their performance?** The students were all 15 years old at the time of the study. The tests were given in a number of languages that reflected the primary language in each region. For many of the students, the test language was not their native language. I was curious if less experience with the test language had any affect on performance, particularly in the reading section. I determined that the less experience a student had with the test language, the lower they scored in the reading section.
 
 * **Do children in freer countries perform differently than those in less free countries?** I introduced the Freedom House ratings to examine test performance against societal freedom, particulary civil liberties. Although China is considered one of the least free countries in the study, it was the top-performing country in overall academic performance. Despite this, students in less free countries performed worse than students in freer countries. Excluding China increased the effect even more. 
 
